@@ -1,0 +1,76 @@
+AIM:
+Analyze CSS by applying the different styles using inline,external and internal style sheets in a HTML file.
+CODE:
+1.INLINE:
+<html>
+  <head>
+    <title>inline css</title>
+  </head>
+  <body style="background-color: skyblue; color: white">
+    <center>
+      <h1 style="color: rgba(255, 0, 0, 0.6); font-size: 40px">
+        COLLEGE OF ENGINEERING VATAKARA
+      </h1>
+      <h3 style="color: red; font-size: 30px">cape undertaken college</h3>
+
+        <h4 style="color:blue;font-size: 20px;"> <u>Courses Available</u></h4>
+        <ul style="font-style:italic;font-weight: bold;color:black;font-size: 15px;line-height:2;">           <li>MCA</li>
+          <li>ELECTRICAL and ELECTRONICS ENGINEERING</li>
+          <li>COMPUTER SCIENCE and ENGINEERING</li>
+          <li>CIVIL ENGINEERING</li>
+          <li>IT</li>
+        </ul>
+      </p>
+    </center>
+  </body> </html>
+2.EXTERNAL:
+<html>
+  <head>
+    <title>external css</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center>
+      <h1>COLLEGE OF ENGINEERING VATAKARA</h1>
+      <h3>cape undertaken college</h3>
+      <h4>Courses Offered</h4>
+      <ul>
+        <li>MCA</li>
+        <li>ELECTRICAL and ELECTRONICS ENGINEERING</li>
+        <li>COMPUTER SCIENCE and ENGINEERING</li>         <li>CIVIL ENGINEERING</li>
+        <li>IT</li>
+      </ul>
+    </center>
+  </body> </html>
+style.css body {   background-color: skyblue;   color: white;
+} h1 {   color: white;   font-size: 40px;
+} h3 {   color: grey;   font-size: 30px;
+} h4 {   color: white;   font-size: 20px; } ul {
+  font-style: italic;   font-weight: bold;   color: black;   font-size: 15px;   line-height: 2;
+}
+
+3.INTERNAL:
+<html>
+  <head>
+    <title>internal css</title>     <style>       body {         background-color: skyblue;         color: white;
+      }
+      h1 {         color: BROWN;         font-size: 40px;
+      }       h3 {         color: grey;         font-size: 30px;
+      }       h4 {         color: BLUE;         font-size: 20px;
+      }       ul {         font-style: italic;         font-weight: bold;         color: black;         font-size: 15px;         line-height: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>COLLEGE OF ENGINEERING VATAKARA</h1>       <h3>cape undertaken college</h3>
+      <h4>Courses Available</h4>
+      <ul>
+        <li>MCA</li>
+        <li>ELECTRICAL and ELECTRONICS ENGINEERING</li>
+        <li>COMPUTER SCIENCE and ENGINEERING</li>
+        <li>CIVIL ENGINEERING</li>
+        <li>IT</li>
+      </ul>
+    </center>
+  </body> </html>
