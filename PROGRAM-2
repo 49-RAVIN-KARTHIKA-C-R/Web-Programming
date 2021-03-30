@@ -1,0 +1,128 @@
+AIM:
+Create a HTML file to to link to different HTML page which contains images,tables, and also link within a page.
+CODE:
+1.HOME PAGE:
+<html>
+<title>
+HOME PAGE
+</title>
+<body bgcolor="F4A896">
+<h1>
+<u><center><font color="pink">COLLEGE OF ENGINEERING VADAKARA </center></u></font></h1>
+<marquee>An Institution accredited by NAAC with 'B+' Grade | An ISO 9001 – 2015 certified Institution</marquee>
+<p>
+Welcome to CEV
+College of Engineering Vadakara (CEV) formerly known as Co-operative Institute of Technology, Vadakara, is the first engineering college under Co-operative Academy of Professional Education (CAPE) established by Govt. of Kerala in the year 1999. This was started with a broad vision of assisting the Government to impart quality education to the meritorious and economically backward students in the State without much financial burden.
+</p>
+
+<h3>For image: 
+
+<a href="file:///E:/web/img.html">click here</a></h3>
+<p><font color="brown">
+CEV is committed to the Government of India and Government of Kerala policy of uplifting the weaker sections of the society by imparting professional education to the students. Accordingly, CEV is located in the socially and educationally backward Malabar region of Kerala state. CEV is located at Kurunthodi in Maniyur village 13 km away from Vadakara town along the Palayad – Maniyur road. CEV is situated on the hilltop of “Kakoramala”, with lush green and beautiful surroundings stretching over an area of about 27 acres. The nearest railway station, Vadakara is 14 Km away from the campus.</font>
+
+</p>
+
+<h3><font color="green">Details(Dept.):
+
+<a href="file:///E:/web/TABLE.HTML">click here</a></font></h3>
+<p><font color="red">
+<u>Vision</u>
+To be a world class technical education institute, with the highest quality and standards of excellence to meet the demands of business, industry and the community and thereby to contribute to India’s socio-economic progress.
+</font></p>
+
+
+<h3> <center>For continue reading visit this website 
+
+<a href="https://www.cev.ac.in/en/">click here...</a></center></h3>
+<p>
+
+Vision
+To be a world class technical education institute, with the highest quality and standards of excellence to meet the demands of business, industry and the community and thereby to contribute to India’s socio-economic progress.
+
+
+Key Highlights
+ACADEMICS:A Premier Institute with NAAC B+ Accreditation and Certified by ISO 9001-2015.Institution under CAPE, Estd by Kerala Government.
+TEQIP funded institution by MHRD Consistently holding top ranks in university examinations.Transparent and meritorious admission process through Centralized Allotment Process by Entrance Commissioner.
+</p>
+<h3>For more...
+
+<a href="file:///E:/web/map.html">click here</a></h3>
+</body>
+</html>
+
+2.LINKING IMAGE:
+<html>
+<head>
+	<title> images </title>
+</head>
+<body bgcolor="358597">
+<img src="C:\Users\acer\Desktop\download.jpg "  width="700",height="400"></img>
+</body>
+</html>
+
+3.LINKING TABLE
+<html>	
+<body bgcolor="ADEFD1FF">
+<table border="1px" color="solid black">
+      <thead>
+           <tr>
+	
+	<th>SNO</th>
+	<th>DEPARTMENT</th>
+	<th>NO OF YEARS</th>
+	<th>STRENGTH</th>
+            </tr>
+      </thead>
+       
+<tbody>
+            <tr>
+	<td>1</td>
+	<td>MCA</td>
+	<td>3</td>
+	<td>300</td>
+            </tr>
+            <tr>
+	<td>2</td>
+	<td>EEE</td>
+	<td>4</td>
+	<td>700</td>
+            </tr>
+            <tr>
+	<td>3</td>
+	<td>MECH</td>
+	<td>4</td>
+	<td>702</td>
+            </tr>
+            <tr>
+	<td>4</td>
+	<td>CIVIL</td>
+	<td>4</td>
+	<td>600</td>
+            </tr>
+            <tr>
+	<td>5</td>
+	<td>ECE</td>
+	<td>4</td>
+	<td>500</td>
+            </tr>
+       </tbody>
+
+</table>
+</body>
+</html>
+
+3.MAPPING:
+<html>
+<head>
+	<title>CEV</title>
+</head>
+<body>
+	<img src="C:\Users\acer\Desktop\download.jpg" alt="Workplace" usemap="#mapping" width="300" height="250">
+
+<map name="mapping">
+  <area shape="rect" coords="134,20,170,150" alt="Computer" href="file:///E:/web/TABLE.HTML" target="_blank">
+
+</map>
+</body>
+</html>
